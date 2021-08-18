@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var startButton: UIButton!
     
+    //MARK: - Override methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +36,7 @@ class ViewController: UIViewController {
        
     }
 
+    //MARK: - IB Actions
     @IBAction func showLightsStartButton() {
         
         startButton.setTitle("Next", for: .normal)
@@ -62,6 +64,7 @@ class ViewController: UIViewController {
             greenLight.alpha = 1
            
         }
+        
     }
 }
 
