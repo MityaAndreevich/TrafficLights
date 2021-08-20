@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TrafficLights
 //
-//  Created by Дмитрий Логачёв on 17.08.2021.
+//  Created by Dmitry Logachev on 17.08.2021.
 //
 
 import UIKit
